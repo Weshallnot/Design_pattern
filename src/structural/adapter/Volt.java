@@ -1,0 +1,16 @@
+package com.pattern.structural.adapter;
+
+public class Volt {
+	private int volt;
+	public Volt() {}
+	public Volt(int volt) {
+		super();
+		this.volt = volt;
+	}
+	public int getVolt() {
+		return volt;
+	}
+	public void setVolt(int volt) {
+		this.volt = volt;
+	}
+}
